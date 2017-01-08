@@ -1,0 +1,3 @@
+send BTN_START 1
+wait 50
+send BTN_START 0

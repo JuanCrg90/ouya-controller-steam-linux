@@ -1,0 +1,2 @@
+SUBSYSTEMS=="input", ATTRS{name}=="OUYA Game Controller", KERNEL=="js*", MODE="600"
+SUBSYSTEMS=="input", ATTRS{name}=="Microsoft X-Box 360 pad", ACTION=="add", GROUP="games", MODE="660"

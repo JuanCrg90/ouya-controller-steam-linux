@@ -1,0 +1,37 @@
+[xboxdrv]
+evdev = /dev/input/event17
+evdev-debug = false
+mimic-xpad = true
+silent = false
+
+[evdev-absmap]
+ABS_X=X1
+ABS_Y=Y1
+ABS_RX=X2
+ABS_RY=Y2
+ABS_Z=LT
+ABS_RZ=RT
+
+[evdev-keymap]
+BTN_TL=TL
+BTN_TR=TR
+BTN_A=A
+BTN_B=X
+BTN_X=B
+BTN_C=Y
+BTN_Y=LB
+BTN_Z=RB
+BTN_START=dr
+BTN_SELECT=dl
+BTN_TL2=du
+BTN_TR2=dd
+BTN_LEFT=back
+BTN_THUMBR=start
+KEY_#319=guide
+
+[axismap]
+-Y1=Y1
+LT^deadzone:65
+
+[ui-buttonmap]
+start=macro:start.macro
