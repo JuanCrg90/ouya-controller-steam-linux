@@ -3,6 +3,9 @@
 #Install Bluethooth dependencies
 sudo pacman -S bluez bluez-utils
 
+#Load the generic bluetooth driver, if not already loaded
+sudo modprobe btusb
+
 #Install xboxdrv
 yaourt -S --noconfirm xboxdrv 
 
