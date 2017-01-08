@@ -25,7 +25,11 @@ sh install.sh
 ```
 
 ### Connect the ouya controller to the system
-When the instalation finish. You can use `bluetoothctl` for connect the controller from the terminal.
+When the instalation finish. Set the controller in listen mode and use `bluetoothctl` for connect the controller from the terminal.
+
+For set the controller in listen mode, press the middle button until you only see two lights
+
+![Set Controller in listen mode](http://res.cloudinary.com/juancrg90/image/upload/v1483865157/ezgif.com-optimize_x4cuca.gif)
 
 ```bash
 $ bluetoothctl
